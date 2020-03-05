@@ -9,12 +9,6 @@ const requestProxy = require("express-request-proxy");
 const app = express();
 
 
-// listen for requests :)
-const listener = app.listen(process.env.PORT, function() {
-  console.log('Your app is listening on port ' + listener.address().port);
-});
-
-
 /////////////////////////////////////////////////////////////////////////////
 
 // this url will return the data our page needs
